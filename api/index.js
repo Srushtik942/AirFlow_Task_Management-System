@@ -21,7 +21,6 @@ function addTask(taskId,text,priority){
   return tasks
 }
 
-
 app.get('/tasks/add',async(req,res)=>{
     try{
     let taskId = parseInt(req.query.taskId);
